@@ -1,0 +1,48 @@
+<div class="sidebar-wrapper">
+    <div class="logo">
+        <a href="{{ path('index') }}" class="simple-text">
+            {{ 'home'|trans }}
+        </a>
+    </div>
+    <ul class="nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="{{ path('admin_site_detail') }}">
+                <i class="nc-icon nc-chart-pie-35"></i>
+                <p>Dashboard</p>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ path('admin_translation_show') }}">
+                <i class="nc-icon nc-globe-2"></i>
+                <p>{{ 'translations'|trans }}</p>
+            </a>
+        </li>
+        <li >
+            <a class="nav-link" href="{{ path('admin_manage_page') }}">
+                <i class="nc-icon nc-notes"></i>
+                <p>Pages</p>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ path('admin_manage_slide') }}">
+                <i class="nc-icon nc-paper-2"></i>
+                <p>Slides</p>
+            </a>
+        </li>
+
+
+        <li>
+            <a class="nav-link" href="{{ path('admin_code') }}">
+                <i class="nc-icon nc-html5"></i>
+                <p>{{ 'additionnal_script'|trans }}</p>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ path('blog') }}">
+                <i class="nc-icon nc-bank"></i>
+                <p>Blog</p>
+            </a>
+        </li>
+
+    </ul>
+</div>

@@ -1,0 +1,76 @@
+app.swagger_ui:
+  path: /doc
+  methods: GET
+  defaults: { _controller: nelmio_api_doc.controller.swagger_ui }
+index:
+    path: /
+    controller: App\Controller\ApiController::hello
+api_login_check:
+  path: /api/login_check
+
+web_own_login:
+  path: /api/login
+  controller: App\Controller\ApiController::login
+  methods: [POST]
+
+web_create_account:
+  path: /app/create/account
+  controller: App\Controller\ApiController::registerAccount
+  methods: [POST]
+
+api_validation_account:
+  path: /app/validation/account/{token}
+  controller: App\Controller\ApiController::validateAccount
+  methods: [GET]
+
+api_update_password:
+  path: /api/update/password
+  controller: App\Controller\ApiController::updatePassword
+  methods: [POST]
+
+api_reset_password:
+  path: /app/reset/password
+  controller: App\Controller\ApiController::resetPassword
+  methods: [POST]
+
+api_get_current_user_info:
+  path: /api/user/info
+  controller: App\Controller\ApiController::getCurrentUserInfo
+  methods: [GET]
+
+api_list_user_session:
+  path: /api/user/list/session
+  controller: App\Controller\ApiController::listUserSession
+  methods: [POST]
+
+api_start_game:
+  path: /api/start/game
+  controller: App\Controller\ApiController::startGame
+  methods: [GET]
+
+api_leave_game:
+  path: /api/leave/game
+  controller: App\Controller\ApiController::leaveGame
+  methods: [GET]
+
+api_back_to_game:
+  path: /api/back/to/game
+  controller: App\Controller\ApiController::backGame
+  methods: [GET]
+
+api_answer_game_question:
+  path: /api/answer/question
+  controller: App\Controller\ApiController::anwserToolQuestion
+  methods: [POST]
+
+web_register_email:
+  path: /api/register/email
+  controller: App\Controller\ApiController::registerEmail
+  methods: [POST]
+
+
+
+
+
+
+

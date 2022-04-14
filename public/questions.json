@@ -1,0 +1,1841 @@
+[
+  {
+    "name": "Environnement",
+    "type": 1,
+    "nb_question": 15,
+    "nb_background": 2,
+    "backgrounds": [
+      {
+        "name": "simple_route",
+        "position": 1,
+        "nb_question": 7,
+        "questions": [
+          {
+            "number": 1,
+            "image": "cailloux",
+            "question": "Les dunes ont été créées par l’homme. ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Les dunes ont été créées par l’homme pour protéger les habitations. "
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "image": "plantes_bleux",
+            "question": "Les plantes stabilisent la dune.",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Certaines herbes sont plantées uniquement pour solidifier la dune."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "image": "ponton",
+            "question": "Est-ce qu’on peut marcher n’importe où sur la dune. ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Il faut emprunter les accès aménagés pour protéger la dune. "
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "image": "dechets",
+            "question": "Les déchets plastiques se dégradent rapidement dans le sable.",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Le plastique met entre 100 et 400 ans à se dégrader. "
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "image": "mer",
+            "question": "Si l’eau est claire, cela signifie que l’eau n’est pas polluée. ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "La transparence ne dépend pas de la pollution."
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "image": "panneau_sur_barriere",
+            "question": "Les plages landaises sont naturellement propres.",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Les déchets déposés sur les plages sont de différentes natures (plastique, verre, métal, …) et sont collectés toute l’année à des fréquences variables sur les 106 km de littoral landais."
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "image": "nuages",
+            "question": "Les produits chimiques sont contrôlés dans le cadre du suivi de la qualité des eaux de baignade ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Aujourd’hui, quand on parle de qualité des eaux de baignades on ne prend en compte, que les pollutions microbiologiques c’est à dire la présence de microbes et de bactéries."
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "simple_route_panneaux",
+        "position": 2,
+        "nb_question": 8,
+        "questions": [
+          {
+            "number": 12,
+            "image": "poubelle",
+            "question": "Un seul mégot de cigarette peut polluer à lui seul 500L d’eau",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "A lui-seul, il contient une centaine de substances nocives voire cancérigènes, qui contaminent à la fois, l’eau, l’air et les sols. En plus des dégâts générés en matière de déforestation, émissions de CO2 et acidification des sols, les mégots de cigarettes sont la principale source de pollution des océans. Plus que les pailles ou les sacs plastiques, les mégots de cigarettes constitueraient le polluant le plus néfaste des océans."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "image": "drapeau_rouge",
+            "question": "La baignade est interdite si la qualité de l’eau n’est pas bonne ? ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Des contrôles réguliers permettent d’évaluer la qualité de l’eau. Quand la qualité n’est pas suffisante (bactéries au-dessus de certains seuils), la baignade est interdite."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 13,
+            "image": "drapeau_jaune",
+            "question": "Le vent peut être dangereux.",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "En méditerrannée, le Mistral et la Tramontane sont des vents qui soufflent régulièrement à plus de 90km/h. Ces vents représentent un danger pour les engins pneumatiques, à voile car il vient de la Terre. Mais aussi pour les parasols ! "
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 14,
+            "image": "picto_feu",
+            "question": "La pollution est plus visible en Méditerranée que dans l’océan Atlantique. ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "le problème de pollution de l’eau est plus visible en Méditerranée à cause du vent qui transporte les déchets, les courants sont moins violents que dans l’océan et les fonds marins couverts d’algues et de rochers qui retiennent cette pollution "
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "image": "picto_chaussure_fleur",
+            "question": "Si l’eau est claire cela signifie que l’eau n’est pas polluée. ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "La transparence ne dépend pas de la pollution. "
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "image": "panneau_fleche",
+            "question": "On peut utiliser le sable des déserts pour construire les routes et les bâtiments.",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Celui ci est trop petit et trop lisse."
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 15,
+            "image": "panneau_craie",
+            "question": "La méditerannée est moins dangereuse que l’océan Atlantique. ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "les vents, les rochers, les « coups de mer » la navigation très importante, les accidents de plongée … rendent la mer méditerannée dangereuse. "
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "image": "plantes_gauches",
+            "question": "Ils existent une faune et flore spécifiques aux dunes. ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Certaines espèces ne vivent que dans les dunes."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Milieu Aquatique",
+    "type": 1,
+    "nb_question": 15,
+    "nb_background": 2,
+    "backgrounds": [
+      {
+        "name": "plage_1",
+        "position": 1,
+        "nb_question": 7,
+        "questions": [
+          {
+            "number": 1,
+            "image": "drapeaux",
+            "question": "S’il y a des gros coefficients alors il y a forcément des grosses vagues.",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Il n’y a pas de lien direct entre les coefficients et les vagues."
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "image": "mer",
+            "question": "Les baïnes se trouvent toujours au même endroit sur la plage ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Les baïnes dépendent des mouvements du sable, des courants, des vagues qui ne sont jamais identiques."
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "image": "bouee_tube",
+            "question": "Les valeurs de coefficients sont comprises entre 20 et 120",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Les plus petits coefficients sont aux alentours de 20 et les très grosses marées, de 120."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "image": "chaise",
+            "question": "Le rouleau de bord n’existe qu’à marée haute ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "C’est lorsque la marée est haute, que les vagues ne cassent uniquement sur le bord de l’eau."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "image": "baigneurs",
+            "question": "Un courant de baïne peut emporter un baigneur à plusieurs centaines de mètres au large.",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Selon différents facteurs (taille, profondeur …) une baïne peut emporter un baigneur sur plusieurs centaines de mètres."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "image": "mns_chaise",
+            "question": "Il existe des organismes potentiellement dangereux en Méditerrannée. ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Méduses, oursins, vives, rascasses, anémones"
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 14,
+            "image": "voiture",
+            "question": "En méditerannée, l’eau est plus chaude que dans l’océan. ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "La mer étant un « vase clos », l’eau est moins brassée et il y a moins de variations de température."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "plage_2",
+        "position": 2,
+        "nb_question": 8,
+        "questions": [
+          {
+            "number": 9,
+            "image": "palmes",
+            "question": "Tous les lacs ont une origine naturelle ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Certains lacs ont été creusés par l’Homme. (Lac de Port d’Albret à Vieux Boucau-Soustons par exemple)"
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "image": "sac_mns",
+            "question": "Dans les Landes, tous les lacs sont des lacs marins ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Il existe des lacs d’eau douce. (Lac de Mont de Marsan par exemple)"
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 15,
+            "image": "talkie_walkie",
+            "question": "La mer méditerrannée pique plus les yeux que l’océan atlantique.",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "l’eau de mer est plus salée (environ 3g de sel en plus dans 1 litre d’eau) que l’océan atlantique"
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "image": "surf",
+            "question": "Le phénomène de coefficient a un lien avec l’attraction lunaire",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "C’est l’attraction lunaire qui influe sur l’importance ou non des coefficients et sur le niveau de l’océan."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "image": "radio",
+            "question": "Un coefficient représente l’amplitude de la hauteur d’eau entre la marée haute et la marée basse ",
+            "answers": [
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Le coefficient permet de quantifier la différence et donc l’amplitude entre la marée haute et la marée basse."
+              },
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "image": "jumelles",
+            "question": "Il n’y a pas de marées en méditerannée. ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "il existe quelques cas"
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "image": "drapeau",
+            "question": "Les dangers de l’océan sont les mêmes à marée haute qu’à marée basse",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "Marée basse : Courant principalement. Marée Haute : Vagues de bord et tâches de ressac (courants violents très localisés)"
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 13,
+            "image": "chaise",
+            "question": "Je peux nager dans un chenal dédié aux bateaux. ",
+            "answers": [
+              {
+                "text": "Faux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": "comme son nom l’indique il est réservé aux bateaux "
+              },
+              {
+                "text": "Vrai",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Secourisme",
+    "type": 2,
+    "nb_question": 10,
+    "nb_background": 3,
+    "backgrounds": [
+      {
+        "name": "infirmerie1",
+        "position": 1,
+        "nb_question": 3,
+        "questions": [
+          {
+            "number": 6,
+            "image": "radio",
+            "question": "L’exposition au soleil  | Comment je me protège ?",
+            "answers": [
+              {
+                "text": "Je mets de la crème solaire toutes les heures. ",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je mets un chapeau et une casquette.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je mets des lunettes de soleil.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je mets un lycra manches longues ou un tee-shirt manche longue",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je bois régulièrement",
+                "position": 5,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "image": "livre",
+            "question": "L’insolation",
+            "answers": [
+              {
+                "text": "Je mets la personne à l’ombre. ",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’amène la personne se mettre au repos au poste.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je refroidis la personne avec des linges humides. ",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je surveille la personne. J’appelle le 112 avec mon téléphone portable et je demande de l’aide.",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "image": "jumelles",
+            "question": "Le malaise",
+            "answers": [
+              {
+                "text": "Je mets la personne au repos",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je pose les 5 questions : Age ? Première fois ? Depuis combien de temps ? Médicaments ? Hospitalisation ?",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’appelle le 112 avec mon téléphone portable et je transmets les informations",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je surveille l’état de la personne et j’appelle le 112 s’il y a une évolution.",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "infirmerie2",
+        "position": 2,
+        "nb_question": 4,
+        "questions": [
+          {
+            "number": 8,
+            "image": "poster_marees",
+            "question": "Le saignement important",
+            "answers": [
+              {
+                "text": "J’appuie fort sur le saignement pour l’arrêter. ",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’allonge la personne si elle est debout. Je couvre la personne.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’appelle le 112 avec mon téléphone portable et je demande de l’aide.Je dis ou je suis exactement, dans quel état est la victime et ce que j’ai fait.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "image": "pharmacie_murale",
+            "question": "La piqure de vive",
+            "answers": [
+              {
+                "text": "Je mets le pied piqué par une vive dans de l’eau chaude pendant 20 minutes",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je désinfecte la piqure de vive.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je fais marcher la personne dans le sable chaud.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je surveille la personne. ",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "image": "bouteille_d_eau",
+            "question": "La noyade | Victime inconsciente qui ne respire pas",
+            "answers": [
+              {
+                "text": "J’alterne 30 compressions thoraciques et 2 insufflations.",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’essaie de trouver un défibrillateur.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’appelle le 112 avec mon téléphone portable et je demande de l’aide.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je dis ou je suis exactement, dans quel état est la victime et ce que j’ai fait.",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 1,
+            "image": "lit",
+            "question": "La brulure de méduse",
+            "answers": [
+              {
+                "text": "Je rince la brulure de méduse à l’eau salée.",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je surveille la personne. ",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je passe l’alerte si l’état de la victime évolue",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "infirmerie3",
+        "position": 3,
+        "nb_question": 3,
+        "questions": [
+          {
+            "number": 3,
+            "image": "bouee_tube_gauche",
+            "question": "La noyade",
+            "answers": [
+              {
+                "text": "Je ne me mets pas dans l’eau mais j’appelle les secours.",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’appelle le 112 avec mon téléphone portable et je demande de l’aide.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je dis sur quelle plage je suis, ce que je vois, où est la victime et dans quel état elle est.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je surveille la personne. Pour pouvoir diriger les secours ",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "image": "mallette_grise",
+            "question": "La noyade | Victime inconsciente qui respire",
+            "answers": [
+              {
+                "text": "Je vérifie que la personne respire. ",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je bascule la personne sur le côté. (Position Latérale de Sécurité)\nJe couvre la personne. \n.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’appelle le 112 avec mon téléphone portable et je demande de l’aide.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je vérifie à nouveau si la personne est consciente et lui posant une question et en lui donnant un ordre ",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je dis ou je suis exactement, dans quel état est la victime et ce que j’ai fait.",
+                "position": 5,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "image": "surf_droite",
+            "question": "Les accidents de surf",
+            "answers": [
+              {
+                "text": "Je demande où la personne a mal. ",
+                "position": 1,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’immobilise l’articulation traumatisée.",
+                "position": 2,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "Je vérifie si la personne peut bouger ses doigts et ses pieds. Je vérifie si la personne sent quand je la pince.",
+                "position": 3,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "J’appelle le 112 avec mon téléphone portable et je demande de l’aide.",
+                "position": 4,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Replacer les éléments",
+    "type": 3,
+    "nb_question": 10,
+    "nb_background": 1,
+    "backgrounds": [
+      {
+        "name": "mer_et_bord_de_plage",
+        "position": 1,
+        "nb_question": 10,
+        "questions": [
+          {
+            "number": 1,
+            "image": "jetski",
+            "question": "jetski",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "image": "palmes",
+            "question": "palmes",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "image": "jumelles",
+            "question": "jumelles",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "image": "bouee_tube",
+            "question": "bouée tube",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "image": "radio",
+            "question": "radio",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "image": "helicoptere",
+            "question": "hélicoptère",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "image": "drapeau_1",
+            "question": "drapeau 1",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "image": "drapeau_2",
+            "question": "drapeau 2",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "image": "voiture_4_4",
+            "question": "voiture 4x4",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "image": "groupe_de_baigneurs ",
+            "question": "groupe de baigneurs ",
+            "answers": [
+              {
+                "text": "dans l'eau hors zone drapeau",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrocher à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "sur le MNS chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "accrochée à la chaise",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "siège vide",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "ciel",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la droite",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "au bord de l'eau sur la gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "à coté de la chaise à gauche",
+                "position": 0,
+                "is_true": 0,
+                "is_active": 1,
+                "description": ""
+              },
+              {
+                "text": "dans l'eau entre les 2 drapeaux",
+                "position": 0,
+                "is_true": 1,
+                "is_active": 1,
+                "description": ""
+              }
+            ]
+          }
+
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+<?php //%255BApp%255CEntity%255CTool%2524possibleAnswers%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Annotation\\Groups'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Annotation\\Groups')),
+        clone ($p['Doctrine\\ORM\\Mapping\\OrderBy'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OrderBy')),
+        clone ($p['Doctrine\\ORM\\Mapping\\OneToMany'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToMany')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Serializer\\Annotation\\Groups' => [
+            'groups' => [
+                [
+                    'session_all',
+                    'step_all',
+                    'quest_all',
+                    'answer_ok',
+                ],
+            ],
+        ],
+        'stdClass' => [
+            'value' => [
+                1 => [
+                    'text' => 'DESC',
+                ],
+            ],
+            'mappedBy' => [
+                2 => 'tool',
+            ],
+            'targetEntity' => [
+                2 => 'App\\Entity\\Answer',
+            ],
+            'cascade' => [
+                2 => [
+                    'persist',
+                    'remove',
+                ],
+            ],
+            'orphanRemoval' => [
+                2 => true,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[2],
+    ],
+    []
+); }];

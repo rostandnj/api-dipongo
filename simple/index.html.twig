@@ -1,0 +1,219 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    {% if slides|length > 0 %}
+
+    <section id="hero" class="pb-5" >
+        <div id="heroCarousel" class="carousel slide carousel-fade " data-ride="carousel">
+
+            <div class="carousel-inner " role="listbox">
+
+                <!-- Slide 1 -->
+                {% for s in slides %}
+                <div class="carousel-item {% if loop.index == 1 %}active{% endif %}" style="background-image: url({{ asset('uploads/'~s.file) }});">
+                    <div class="carousel-container">
+                        <div class="carousel-content animate__animated animate__fadeInUp" >
+
+                            <div id="parent">
+                                <div class="col-md-12">
+                                    <h2><a class="text-title" href="{{ path('project') }}">
+                                            {% if app.request.cookies.get('lang') == 'fr' %}
+                                                {% if s.title != "" %}
+                                                    {{ s.title }}
+                                                {% endif %}
+                                            {% else %}
+                                                {% if s.titleEn != "" %}
+                                                    {{ s.titleEn }}
+                                                {% endif %}
+                                            {% endif %}
+                                        </a>
+                                    </h2>
+                                    <p>
+                                        {% if app.request.cookies.get('lang') == 'fr' %}
+                                            {% if s.description != "" %}
+                                                {{ s.description }}
+                                            {% endif %}
+                                        {% else %}
+                                            {% if s.descriptionEn != "" %}
+                                                {{ s.descriptionEn }}
+                                            {% endif %}
+                                        {% endif %}
+                                    </p>
+                                    <div class="text-center" style="display: none"><a href="{{ path('project') }}" class="btn-get-started">{{ 'read'|trans }}</a></div>
+                                </div>
+                                <div style="display: none" class="col-md-2" id="rightchild">
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                {% endfor %}
+
+
+            </div>
+
+            <a style="display: none" class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a style="display: none" class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+            <ol style="display: none" class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        </div>
+
+    </section><!-- End Hero -->
+    {% endif %}
+    {% if app.request.cookies.get('lang') == 'fr' %}
+        {% if quote != "" %}
+            <section class=" mt-100 mb-100" style="background: rgba(4, 4, 4, 0.7);width: 100%;
+    min-height: 100px;
+        padding: 50px;
+        color: #fff;
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+        border-top: 5px solid #7accff;color: white;text-align: center;font-size: 24px!important;">
+
+                <span class="icofont-quote-left"></span>
+                {{ quote }}
+                <span class="icofont-quote-right"></span>
+
+
+            {% if quote_author != "" %}
+                <p>
+                {{ quote_author }}
+                </p>
+            {% endif %}
+             </section>
+        {% endif %}
+    {% else %}
+        {% if quote_en != "" %}
+            <section class=" mt-100 mb-100" style="background: rgba(4, 4, 4, 0.7);width: 100%;
+        min-height: 100px;
+            padding: 50px;
+            color: #fff;
+            -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+            border-top: 5px solid #7accff;color: white;text-align: center;font-size: 24px!important;">
+
+                        <span class="icofont-quote-left"></span>
+                        {{ quote_en }}
+                        <span class="icofont-quote-right"></span>
+
+
+                {% if quote_author != "" %}
+                    <p>
+                        {{ quote_author }}
+                    </p>
+                {% endif %}
+            </section>
+        {% endif %}
+    {% endif %}
+
+
+    {% if app.request.cookies.get('lang') == 'fr' %}
+
+    {% else %}
+
+    {% endif %}
+
+    <main id="main">
+
+        <!-- ======= News ======= -->
+        {% if articles|length > 0%}
+        <section id="about-us" class="about-us">
+                <div id="blogSlider" class="  mb-100">
+                    <div class="section-title">
+                        <h2>{{ 'actu and event'|trans }}</h2>
+                    </div>
+                    <div class="MS-content ">
+                        {% for a in articles %}
+                            <div  class="item card">
+                                    <div class="imgTitle">
+                                        {% if a.mainFile == null %}
+
+                                            <img onclick='window.location = "{{ path('blog_show_article',{slug:a.slug}) }}"' style="height: 200px;cursor: pointer" src="{{ asset('assets/img/article.png') }}" alt="" />
+                                        {% else %}
+
+                                            <img  onclick='window.location = "{{ path('blog_show_article',{slug:a.slug}) }}"' style="height: 200px;cursor: pointer" src="{{ asset('uploads/'~a.mainFile) }}" alt="" />
+                                        {% endif %}
+
+                                    </div>
+                                <h5  class="trun" style="height: 30px;text-align: left">
+                                    <a style="font-size: 12px;color: black"  href="{{ path('blog_show_article',{slug:a.slug}) }}">
+                                        {% if app.request.cookies.get('lang') == 'fr' %}
+                                            {{ a.title|slice(0,30) }} ...
+                                        {% else %}
+                                            {{ a.titleEn|slice(0,30) }} ...
+                                        {% endif %}
+
+                                    </a>
+                                </h5>
+
+
+                                <div class="trun" style="font-size: 12px">
+                                    {% if app.request.cookies.get('lang') == 'fr' %}
+                                        {{ a.content|striptags|slice(0, 200)|raw }}
+                                    {% else %}
+                                        {{ a.contentEn|striptags|slice(0, 200)|raw }}
+                                    {% endif %}
+
+
+
+                                </div>
+                                <div class="read-more mt-2">
+                                    <a style="font-size: 13px" class="btn-get-started " href="{{ path('blog_show_article',{slug:a.slug}) }}">{{ 'read_more'|trans }}</a>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                        {% endfor %}
+
+                    </div>
+                    <div class="MS-controls">
+                        <button class="MS-left"><i class="icofont-simple-left" aria-hidden="true"></i></button>
+                        <button class="MS-right"><i class="icofont-simple-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+        </section>
+        {% endif %}
+
+
+
+
+    </main>
+
+{% endblock %}
+
+{% block js %}
+
+    <script type="text/javascript">
+        $('#blogSlider').multislider({
+            interval: 4000,
+            slideAll: false,
+            duration: 2000
+        });
+    </script>
+
+{% endblock %}
